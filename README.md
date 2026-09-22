@@ -6,7 +6,7 @@
 
 An AI coding agent skill that turns the project you just created into a short, shareable launch video — with all text, copy, and narration in Arabic. One command, powered by [Hyperframes](https://hyperframes.heygen.com/).
 
-Based on the original [/brag](https://github.com/latent-spaces/brag) by [latent-spaces](https://github.com/latent-spaces).
+> 🔗 **Original Project:** This is the Arabic localization of [/brag](https://github.com/latent-spaces/brag) by [latent-spaces](https://github.com/latent-spaces). Check out the original English repository [here](https://github.com/latent-spaces/brag).
 
 ---
 
