@@ -41,7 +41,7 @@ cp -r skills/brag/ ~/.claude/skills/brag/
 ### Any agent via the skills CLI (Cursor, Codex, Copilot, Gemini CLI, opencode, and more)
 
 ```bash
-npx skills add https://github.com/YOUR_USERNAME/brag-arabic --skill brag
+npx skills add https://github.com/Mostafa-Khazindar/brag-arabic --skill brag
 ```
 
 Add `-g` to install globally (available in every project); drop it to scope to the current one.
