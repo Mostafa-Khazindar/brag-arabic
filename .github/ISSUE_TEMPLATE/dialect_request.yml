@@ -1,0 +1,22 @@
+name: Suggest a New Arabic Dialect / Tone
+description: Propose a new Arabic dialect or tone vocabulary
+title: "[Dialect/Tone]: "
+labels: ["enhancement", "arabic-nlp"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make `/brag` feel more natural and authentic across the Arabic-speaking world!
+  - type: input
+    id: dialect_name
+    attributes:
+      label: Dialect / Tone Name (اسم اللهجة أو النبرة)
+      description: e.g. Moroccan Darija (الدارجة المغربية), Iraqi (عراقي), Corporate Formal (رسمي مؤسسي)
+    validations:
+      required: true
+  - type: textarea
+    id: sample_phrases
+    attributes:
+      label: Sample Phrases & Hooks (أمثلة للعبارات والخطافات)
+      description: Share 2-3 sample hooks or punchlines in this dialect.
+    validations:
+      required: true

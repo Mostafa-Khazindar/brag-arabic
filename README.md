@@ -1,7 +1,18 @@
+<p align="center">
+  <img src="assets/banner.png" alt="/brag Arabic Edition — ابني وتفاخر" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/latent-spaces/brag"><img src="https://img.shields.io/badge/Original-latent--spaces%2Fbrag-purple" alt="Original: brag"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Language-Arabic%20%7C%20العربية-brightgreen" alt="Language: Arabic"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Dialects-MSA%20%7C%20Egyptian%20%7C%20Gulf%20%7C%20Levantine-orange" alt="Dialects"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Agent-Google%20Antigravity%20%7C%20Claude%20Code%20%7C%20Codex-4285F4" alt="Supported Agents"></a>
+</p>
+
 # /brag — Arabic Edition | النسخة العربية
 
-**You built it. Now brag — in Arabic.**
-
+**You built it. Now brag — in Arabic.**  
 **بنيته. والآن تفاخر.**
 
 An AI coding agent skill that turns the project you just created into a short, shareable launch video — with all text, copy, and narration in Arabic. One command, powered by [Hyperframes](https://hyperframes.heygen.com/).
@@ -101,6 +112,31 @@ Run `/brag` inside any project:
 | `--dialect gulf` | خليجي | Gulf Arabic — professional with Gulf flavor, for GCC audiences |
 | `--dialect levantine` | شامي | Levantine Arabic — modern, conversational |
 | `--dialect "your description"` | custom | Any freeform description of the Arabic register you want |
+
+### Example Output | مثال حي لما يتم توليده
+
+Here is what `/brag --tone polished --dialect msa` generates for a sample audio task app:
+
+```markdown
+# خطة التفاخر | Brag Plan: صوتي (Sawti)
+
+- النبرة | Tone: مصقول (Polished)
+- اللهجة | Dialect: فصحى حديثة (MSA)
+- الفكرة الأساسية | Core Concept: من فكرة مبعثرة إلى خطة عمل منجزة في ثوانٍ.
+
+### المشاهد | Scenes:
+1. المشهد الأول (الخطاف):
+   - النص العربي: "أفكارك تضيع بين التسجيلات؟" (Afkaruk tadi' bayn al-tasjilat?)
+   - الإيقاع: سريع وحاسم مع مؤثر بصري خاطف.
+
+2. المشهد الثاني (الحل):
+   - النص العربي: "صوتي يحوّل تسجيلك الصوتي إلى مهام منظمة فوراً." 
+     (Sawti yuhawwil tasjilak al-sawti ila maham munazzama fawran.)
+
+3. المشهد الثالث (دعوة للتجربة):
+   - النص العربي: "جرّبه الآن مجاناً — الرابط في الوصف."
+     (Jarribhu al-an majjanan — al-rabit fil-wasf.)
+```
 
 ### Options
 
